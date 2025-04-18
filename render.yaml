@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: ba-enterprise-tools
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: FLASK_ENV
+        value: production
+      - key: FLASK_APP
+        value: app.py
+    plan: free 

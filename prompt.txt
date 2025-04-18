@@ -1,0 +1,21 @@
+You are an expert in the cultural adaptation of narratives. Your task is to take a given story and adapt it so that it feels natural within the context of a specific target country, translating the text into the language of that country and adjusting elements that reflect the local culture to make it more authentic.
+
+Here is the original story:
+{text}
+
+Here is the target country:
+{country}
+
+Based on the story and the target country, make the following adaptations:
+
+Language: Translate the text into the language of {country}.
+Cultural elements: Adapt any elements that reflect the local culture of {country}. This may include, but is not limited to:
+People's names (Replace all the characters' original names with less common ones that are still recognizable as belonging to {country}. Make sure the new names match the age and social status of the original characters.)
+Place names (cities, states, locations)
+Company names
+Sports
+Slang and idiomatic expressions
+Other relevant cultural aspects
+Maintain the original text: Do not add any new information or alter the essence of the original text.
+Provide only the adapted text, without any additional explanations or notes.
+No numbering: Present the adapted story as a continuous narrative.
